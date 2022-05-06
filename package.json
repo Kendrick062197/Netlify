@@ -2,7 +2,7 @@
   "name": "netlify",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Kendrick062197.github.io/Netlify",
+  "homepage": "https://Kendrick062197.github.io/Netlify/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
