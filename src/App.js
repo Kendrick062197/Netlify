@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/Login" element={<Login setToken={setToken}/>}/>
           <Route path="/Dashboard" element={<Dashboard setToken={setToken}/>} />
-          <Route path="/*" element={<Page404 />} />
+          <Route path="/*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
