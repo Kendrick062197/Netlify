@@ -4,7 +4,7 @@ import Home from '../src/components/Home/Home';
 import Page404 from '../src/components/404Page/NotFoundPage';
 import Dashboard from '../src/components/Dashboard/Dashboard';
 import "./App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
 
