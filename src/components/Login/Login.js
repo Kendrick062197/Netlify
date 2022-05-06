@@ -27,7 +27,7 @@ export default function Login({ setToken }) {
                 };
                 setToken(token);
                 
-                navigate("/Dashboard", {setToken: token});  
+                navigate("/Netlify/Dashboard", {setToken: token});  
             }
         } else {
             setErrorMessages({ name: "uname", message: errors.uname });
