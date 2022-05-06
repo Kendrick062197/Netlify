@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Netlify/static/css/main.450cc7c4.css",
-    "main.js": "/Netlify/static/js/main.48f98848.js",
+    "main.js": "/Netlify/static/js/main.8cd8f684.js",
     "static/js/787.841f4c7e.chunk.js": "/Netlify/static/js/787.841f4c7e.chunk.js",
     "static/media/MoneyHeist.mp4": "/Netlify/static/media/MoneyHeist.3771987a588afe890d91.mp4",
     "static/media/banner.jpg": "/Netlify/static/media/banner.a2a3b9c44c59e1b34d17.jpg",
@@ -11,11 +11,11 @@
     "index.html": "/Netlify/index.html",
     "static/media/search.svg": "/Netlify/static/media/search.de35228541865216d3a8f83651b2317c.svg",
     "main.450cc7c4.css.map": "/Netlify/static/css/main.450cc7c4.css.map",
-    "main.48f98848.js.map": "/Netlify/static/js/main.48f98848.js.map",
+    "main.8cd8f684.js.map": "/Netlify/static/js/main.8cd8f684.js.map",
     "787.841f4c7e.chunk.js.map": "/Netlify/static/js/787.841f4c7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.450cc7c4.css",
-    "static/js/main.48f98848.js"
+    "static/js/main.8cd8f684.js"
   ]
 }
