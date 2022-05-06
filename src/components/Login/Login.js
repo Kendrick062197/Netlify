@@ -71,7 +71,7 @@ export default function Login({ setToken }) {
                         <input type="checkbox" className="checkbox" id="remember-me" />
                         Remember me
                     </label>
-                    <a>Need Help?</a>
+                    <a href='/Login'>Need Help?</a>
                     </div>
 
                     <div className="onboarding">
@@ -79,7 +79,7 @@ export default function Login({ setToken }) {
                             <img height={'20px'} width={'20px'} className="icon-facebook" src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png" />
                             <small>Login with facebook</small>
                         </div>
-                        <p>New to Netflix? <a>Sign up now.</a></p>
+                        <p>New to Netflix? <a href='/Login'>Sign up now.</a></p>
                         <br/>
                         <small><span>This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>&nbsp;<button className="recaptcha-terms-of-use--link-button" data-uia="recaptcha-learn-more-button">Learn more.</button></small>
                     </div>
@@ -91,12 +91,12 @@ export default function Login({ setToken }) {
                     <p className="questions">Questions? Contact us.</p>
                     <div className="terms">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-12"><a>FAQ</a></div>
-                        <div className="col-lg-3 col-md-6 col-sm-12"><a>Help Center</a></div>
-                        <div className="col-lg-3 col-md-6 col-sm-12"><a>Terms of Use</a></div>
-                        <div className="col-lg-3 col-md-6 col-sm-12"><a>Privacy</a></div>
-                        <div className="col-lg-3 col-md-6 col-sm-12"><a>Cookie Preferences</a></div>
-                        <div className="col-lg-3 col-md-6 col-sm-12"><a>Corporate Information</a></div>
+                        <div className="col-lg-3 col-md-6 col-sm-12"><a href='/Login'>FAQ</a></div>
+                        <div className="col-lg-3 col-md-6 col-sm-12"><a href='/Login'>Help Center</a></div>
+                        <div className="col-lg-3 col-md-6 col-sm-12"><a href='/Login'>Terms of Use</a></div>
+                        <div className="col-lg-3 col-md-6 col-sm-12"><a href='/Login'>Privacy</a></div>
+                        <div className="col-lg-3 col-md-6 col-sm-12"><a href='/Login'>Cookie Preferences</a></div>
+                        <div className="col-lg-3 col-md-6 col-sm-12"><a href='/Login'>Corporate Information</a></div>
                     </div>
                     </div>
                 </div>
