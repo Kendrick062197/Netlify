@@ -18,9 +18,9 @@ function App() {
     <div>
       <Router>
         <Routes>
-            <Route path="/Netlify/" exact element={<Home/>} />
-            <Route path="/Netlify/Login" exact element={<Login setToken={setToken}/>}/>
-            <Route path="/Netlify/Dashboard" exact element={<Dashboard setToken={setToken}/>} />
+            <Route path="/" exact element={<Home/>} />
+            <Route path="/Login" exact element={<Login setToken={setToken}/>}/>
+            <Route path="/Dashboard" exact element={<Dashboard setToken={setToken}/>} />
             <Route path="/*" element={<Page404 />} />
         </Routes>
       </Router>
