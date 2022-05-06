@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route } from 'react-router';
 import Login from '../src/components/Login/Login';
 import Home from '../src/components/Home/Home';
-import Page404 from '../src/components/404Page/NotFoundPage';
 import Dashboard from '../src/components/Dashboard/Dashboard';
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
