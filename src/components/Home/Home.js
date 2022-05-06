@@ -18,7 +18,7 @@ export default function Home() {
                 <div id="main-landing-message">
                 <h1>See what's next.</h1>
                 <h2>WATCH ANYWHERE. CANCEL ANYTIME.</h2>
-                <a className="button" href="#">JOIN FREE FOR A MONTH</a>
+                <a className="button" href='/'>JOIN FREE FOR A MONTH</a>
                 </div>
             </section>
 
@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="view-option">
                 <div>
                     <h1>If you decide Netflix isn't for you - no problem. <br/> No commitment. Cancel online anytime. </h1>
-                    <a className="button" href="#">JOIN FREE FOR A MONTH</a>
+                    <a className="button" href='/'>JOIN FREE FOR A MONTH</a>
                 </div>
                 <div>
                     <img width="560px" src="https://assets.nflxext.com/ffe/siteui/acquisition/home/thisIsNetflix/modules/asset_cancelanytime_withdevice.png" alt="" />
@@ -54,7 +54,7 @@ export default function Home() {
                 <div className="view-option">
                 <div>
                     <h1>Watch TV shows and movies anytime, anywhere — personalized for you.</h1>
-                    <a className="button" href="">JOIN FREE FOR A MONTH</a>
+                    <a className="button" href='/'>JOIN FREE FOR A MONTH</a>
                 </div>
 
                 <div>
@@ -81,7 +81,7 @@ export default function Home() {
                 <div className="view-option">
                 <div>
                     <h1>Choose one plan and watch everything on Netflix.</h1>
-                    <a className="button" href="#">JOIN FREE FOR A MONTH</a>
+                    <a className="button" href="/">JOIN FREE FOR A MONTH</a>
                 </div>
 
                 <table>

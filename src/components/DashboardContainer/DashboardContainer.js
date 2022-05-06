@@ -11,6 +11,9 @@ const DashboardContainer = (props) => {
   const {_banner, setBanner} = props;
   const {title, setTitle} = props;
   
+  console.log(description);
+  console.log(_banner);
+  console.log(title);
 
   return (
     <div className="video">

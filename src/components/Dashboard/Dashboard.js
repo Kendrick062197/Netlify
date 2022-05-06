@@ -98,14 +98,14 @@ function Dashboard() {
                             </div>
                             <h2 className="second-logo-text red-color f-s-28">N</h2>
                         </a>
-                        <a href="#" className="nav-item home">Home</a>
-                        <a href="#" className="nav-item">TV Show</a>
-                        <a href="#" className="nav-item">Movies</a>
-                        <a href="#" className="nav-item latest">Latest</a>
-                        <a href="#" className="nav-item">My List</a>
+                        <a href="/Dashboard" className="nav-item home">Home</a>
+                        <a href="/Dashboard" className="nav-item">TV Show</a>
+                        <a href="/Dashboard" className="nav-item">Movies</a>
+                        <a href="/Dashboard" className="nav-item latest">Latest</a>
+                        <a href="/Dashboard" className="nav-item">My List</a>
                     </div>
                     <div className="righticons d-flex flex-end flex-middle">
-                        <a href="#"><img src={search} alt="search icon" /></a>
+                        <a href="/Dashboard"><img src={search} alt="search icon" /></a>
     
                         <div className="dropdown">
                             <img src={user_green} alt="user profile icon" className="user-icon" />
@@ -113,18 +113,18 @@ function Dashboard() {
                             <div className="dropdown-content">
                                 <div className="profile-links">
                                     {users.map((filteredUser) => (
-                                        <a href="#" className="profile-item d-flex flex-middle">
+                                        <a href="/Dashboard" className="profile-item d-flex flex-middle">
                                             <img src={filteredUser.url} alt="user profile icon" className="user-icon" />
                                             <span>{filteredUser.user}</span>
                                         </a>
                                     ))}
                                     
-                                    <a href="#" className="profile-item last" >Manage Profiles</a>
+                                    <a href="/Dashboard" className="profile-item last" >Manage Profiles</a>
                                 </div>
                                 <div className="line"></div>
                                 <div className="links d-flex direction-column">
-                                    <a href="#">Account</a>
-                                    <a href="#">Help Center</a>
+                                    <a href="/Dashboard">Account</a>
+                                    <a href="/Dashboard">Help Center</a>
                                     <a href="/">Sign Out of Netflix</a>
                                 </div>
                                 
