@@ -5,7 +5,7 @@ import Home from '../src/components/Home/Home';
 import Page404 from '../src/components/404Page/NotFoundPage';
 import Dashboard from '../src/components/Dashboard/Dashboard';
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 
 
@@ -17,14 +17,14 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/Netlify/" exact element={<Home/>} />
           <Route path="/Netlify/Login" exact element={<Login setToken={setToken}/>}/>
           <Route path="/Netlify/Dashboard" exact element={<Dashboard setToken={setToken}/>} />
           <Route path="/*" element={<Page404 />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
