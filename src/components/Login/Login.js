@@ -76,7 +76,7 @@ export default function Login({ setToken }) {
 
                     <div className="onboarding">
                         <div style={{cursor:'pointer'}}>
-                            <img height={'20px'} width={'20px'} className="icon-facebook" src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png" />
+                            <img height={'20px'} width={'20px'} className="icon-facebook" src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png" alt='Facebook Icon' />
                             <small>Login with facebook</small>
                         </div>
                         <p>New to Netflix? <a href='/Login'>Sign up now.</a></p>
