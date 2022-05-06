@@ -209,7 +209,7 @@ function Dashboard() {
                         <div className="mylist-container d-flex flex-start flex-middle flex-no-wrap owl-carousel">
                             {
                                 movies.results?.slice(0, 5).map((movie) => (
-                                    <DashboardContainer key={movie._id} dashboard={movie} setDescription={setDescription} setBanner={setBanner} />
+                                    <DashboardContainer key={movie._id} dashboard={movie} setDescription={setDescription} setBanner={setBanner} setTitle={setTitle}  />
                                 ))
                             }
                         </div>
